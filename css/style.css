@@ -1,0 +1,141 @@
+.branding {
+  font-size: 17px;
+}
+
+body {
+  background-color: rgb(61, 61, 61);
+  background-image: url("../img/showcase.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.nav {
+  padding-right: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+.showcase {
+  height: 600px;
+  padding: 120px 100px;
+  color: #fff;
+}
+.showcase h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.showcase hr {
+  width: 300px;
+  margin: auto;
+  border-width: 3px;
+  border-color: #f44336;
+}
+
+.showcase p {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+.section h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.section img {
+  width: 100%;
+}
+
+.NERC:hover {
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../img/NERC.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.5s;
+}
+.Hackathon:hover {
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../img/Hackathon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.Olympiad:hover {
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../img/Olympiad.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.TableTennis:hover {
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../img/Table-Tennis.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.5s;
+}
+.Badminton:hover {
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../img/Badminton.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.Hockey:hover {
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../img/Hockey.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.5s;
+}
+.PopScience:hover {
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../img/PopScience.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.5s;
+}
+.Anime:hover {
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../img/Anime.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.5s;
+}
+.Music:hover {
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../img/Music.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin-top: 100px;
+  }
+
+  .showcase {
+    height: 400px;
+    padding: 60px 0;
+  }
+}
